@@ -1,12 +1,33 @@
-# CuriosityNano-PIC18F57Q43
+# Projet  CuriosityNano-PIC18F57Q43
 
-[PIC18F57Q43 Curiosity Nano Evaluation Kit](https://docs.google.com/document/d/1mcOm10D477hyFiMuCVZdUryhYyRF4xZHGxpxrDaOEMk/edit?usp=sharing)
+<html>
+<!-- Tableau simple avec en-tête -->
+<a href="https://docs.google.com/document/d/1mcOm10D477hyFiMuCVZdUryhYyRF4xZHGxpxrDaOEMk/edit?usp=sharing" title="Curiosity Nano Development Platform" target="_blank">
+<table style="margin-left: auto; margin-right: auto;">
+  <tr>
+    <td><img src="images/img_google_docs_icon.png" width="30"></td>
+    <td>PIC18F57Q43 Curiosity Nano Evaluation Kit</td>
+  </tr>
+</table>
+</a>
+<center>
+<a href="https://docs.google.com/document/d/1mcOm10D477hyFiMuCVZdUryhYyRF4xZHGxpxrDaOEMk/edit?usp=sharing" title="Curiosity Nano Development Platform" target="_blank"><img src="images/pic18f57q43-curiosity-nano-front.png" width="600"></a>
+</center>
+</html>
 
-![PIC18F57Q43-CURIOSITY-NANO-FRONT](images/pic18f57q43-curiosity-nano-front.png)
+<!-- ![PIC18F57Q43-CURIOSITY-NANO-FRONT](images/pic18f57q43-curiosity-nano-front.png) -->
 
-## Curiosity Nano Development Platform
+---
 
-<a href="https://www.microchip.com/design-centers/8-bit/development-tools/pic-hardware/curiosity-nano-development-platform" title="Curiosity Nano Development Platform" target="_blank"><img src="images/img_proto_with_curiosity_nano.png" width="600"></a>
+<html>
+<center>
+<a href="https://www.microchip.com/design-centers/8-bit/development-tools/pic-hardware/curiosity-nano-development-platform" title="Curiosity Nano Development Platform" target="_blank">
+<H2>
+Curiosity Nano Development Platform
+</H2>
+<img src="images/img_proto_with_curiosity_nano.png" width="600"></a>
+</center>
+</html>
 
 ---
 
@@ -20,8 +41,8 @@
 
 ---
 
-## Internet Links
+## Liens Internet
 
-* Microchip > [PIC18F57Q43 Curiosity Nano Evaluation Kit - Part Number: DM164150](https://www.microchip.com/developmenttools/ProductDetails/DM164150)
-* Blog > [PIC18F57Q43 Curiosity Nano + MPLAB Code Configurator](https://www.settorezero.com/wordpress/curiosity-nano-code-configurator-per-entrare-nel-mondo-dei-microcontrollori-pic-senza-sforzo-e-in-economia/)
-* GitHub > [Cyb3rn0id / Microchip_Curiosity_Nano_Examples](https://github.com/Cyb3rn0id/Microchip_Curiosity_Nano_Examples)
+* Microchip, [PIC18F57Q43 Curiosity Nano Evaluation Kit - Part Number: DM164150](https://www.microchip.com/developmenttools/ProductDetails/DM164150)
+* Blog, [PIC18F57Q43 Curiosity Nano + MPLAB Code Configurator](https://www.settorezero.com/wordpress/curiosity-nano-code-configurator-per-entrare-nel-mondo-dei-microcontrollori-pic-senza-sforzo-e-in-economia/)
+* GitHub, [Cyb3rn0id / Microchip_Curiosity_Nano_Examples](https://github.com/Cyb3rn0id/Microchip_Curiosity_Nano_Examples)

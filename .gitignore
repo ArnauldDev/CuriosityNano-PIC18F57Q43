@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 
 # Microchip MPLAB X IDE
+*build/
+*debug/
+*dist/
