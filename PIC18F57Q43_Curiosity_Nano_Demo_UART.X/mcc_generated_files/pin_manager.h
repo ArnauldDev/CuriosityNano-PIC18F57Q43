@@ -85,6 +85,30 @@
 #define SW0_SetAnalogMode()      do { ANSELBbits.ANSELB4 = 1; } while(0)
 #define SW0_SetDigitalMode()     do { ANSELBbits.ANSELB4 = 0; } while(0)
 
+// get/set RF0 procedures
+#define RF0_SetHigh()            do { LATFbits.LATF0 = 1; } while(0)
+#define RF0_SetLow()             do { LATFbits.LATF0 = 0; } while(0)
+#define RF0_Toggle()             do { LATFbits.LATF0 = ~LATFbits.LATF0; } while(0)
+#define RF0_GetValue()              PORTFbits.RF0
+#define RF0_SetDigitalInput()    do { TRISFbits.TRISF0 = 1; } while(0)
+#define RF0_SetDigitalOutput()   do { TRISFbits.TRISF0 = 0; } while(0)
+#define RF0_SetPullup()             do { WPUFbits.WPUF0 = 1; } while(0)
+#define RF0_ResetPullup()           do { WPUFbits.WPUF0 = 0; } while(0)
+#define RF0_SetAnalogMode()         do { ANSELFbits.ANSELF0 = 1; } while(0)
+#define RF0_SetDigitalMode()        do { ANSELFbits.ANSELF0 = 0; } while(0)
+
+// get/set RF1 procedures
+#define RF1_SetHigh()            do { LATFbits.LATF1 = 1; } while(0)
+#define RF1_SetLow()             do { LATFbits.LATF1 = 0; } while(0)
+#define RF1_Toggle()             do { LATFbits.LATF1 = ~LATFbits.LATF1; } while(0)
+#define RF1_GetValue()              PORTFbits.RF1
+#define RF1_SetDigitalInput()    do { TRISFbits.TRISF1 = 1; } while(0)
+#define RF1_SetDigitalOutput()   do { TRISFbits.TRISF1 = 0; } while(0)
+#define RF1_SetPullup()             do { WPUFbits.WPUF1 = 1; } while(0)
+#define RF1_ResetPullup()           do { WPUFbits.WPUF1 = 0; } while(0)
+#define RF1_SetAnalogMode()         do { ANSELFbits.ANSELF1 = 1; } while(0)
+#define RF1_SetDigitalMode()        do { ANSELFbits.ANSELF1 = 0; } while(0)
+
 // get/set LED0 aliases
 #define LED0_TRIS                 TRISFbits.TRISF3
 #define LED0_LAT                  LATFbits.LATF3
